@@ -23,8 +23,7 @@ let main mac_addr ip =
   Wol.send ~sw ~net mac_addr;
   match ip with
   | None -> ()
-  | Some ip ->
-    Eio.Switch.run @@ fun sw -> check_status ~sw ~net ip 0
+  | Some ip -> Eio.Switch.run @@ fun sw -> check_status ~sw ~net ip 0
 
 open Cmdliner
 
