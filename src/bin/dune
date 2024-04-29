@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (public_name wol)
+ (libraries wol eio_main cmdliner))

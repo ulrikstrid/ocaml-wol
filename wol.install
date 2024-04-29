@@ -1,0 +1,22 @@
+lib: [
+  "_build/install/default/lib/wol/META"
+  "_build/install/default/lib/wol/dune-package"
+  "_build/install/default/lib/wol/opam"
+  "_build/install/default/lib/wol/package.ml"
+  "_build/install/default/lib/wol/wol.a"
+  "_build/install/default/lib/wol/wol.cma"
+  "_build/install/default/lib/wol/wol.cmi"
+  "_build/install/default/lib/wol/wol.cmt"
+  "_build/install/default/lib/wol/wol.cmx"
+  "_build/install/default/lib/wol/wol.cmxa"
+  "_build/install/default/lib/wol/wol.ml"
+  "_build/install/default/lib/wol/wol__Package.cmi"
+  "_build/install/default/lib/wol/wol__Package.cmt"
+  "_build/install/default/lib/wol/wol__Package.cmx"
+]
+libexec: [
+  "_build/install/default/lib/wol/wol.cmxs"
+]
+bin: [
+  "_build/install/default/bin/wol"
+]

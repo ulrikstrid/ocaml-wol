@@ -1,0 +1,4 @@
+(library
+ (name wol)
+ (public_name wol)
+ (libraries eio eio.unix ipaddr macaddr macaddr-cstruct))
